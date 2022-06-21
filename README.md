@@ -68,6 +68,7 @@ PDO
 PostgreSQL
 JSON
 Bearer Authentication
+Permissão de acesso externo por ip
 Métodos GET, PUT, POST e DELETE
 </pre>
 
