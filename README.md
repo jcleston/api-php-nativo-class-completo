@@ -1,17 +1,22 @@
 <p align="center">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jcleston/modulo1">  
-  <a href="https://github.com/jcleston/modulo1/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jcleston/modulo1">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jcleston/
+api-php-nativo-class-completo">  
+  <a href="https://github.com/jcleston/
+api-php-nativo-class-completo/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jcleston/
+api-php-nativo-class-completo">
   </a>
-   <a href="https://github.com/jcleston/modulo1/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/jcleston/modulo1?style=social">
+   <a href="https://github.com/jcleston/
+api-php-nativo-class-completo/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/jcleston/
+api-php-nativo-class-completo?style=social">
   </a>
   <a href="https://www.linkedin.com/in/janescleston/">
     <img alt="Feito por Janes Cleston" src="https://img.shields.io/badge/feito%20por-Janes%20Cleston-%237519C1">
   </a>
 </p>
 
-# API PHP NATIVO CLASS
+# API PHP NATIVO COM CLASSES E POSTGRESQL
 API REST em PHP 7.4.x 🚀
 
 ## Menu Geral
