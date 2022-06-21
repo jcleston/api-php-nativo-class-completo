@@ -33,6 +33,7 @@ class JsonUtil
         header('Content-Type: application/json');
         header('Cache-Control: no-cache, no-store, must-revalidate');
         header('Access-Control-Allow-Methods: OPTIONS,GET,POST,PUT,DELETE');
+        header('Access-Control-Allow-Origin:' . IP_PERMITIDO);
         echo json_encode($json, JSON_THROW_ON_ERROR, 1024);
         exit;
     }
