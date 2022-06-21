@@ -3,11 +3,13 @@
 namespace Repository;
 
 use DB\PostgreSQL;
+// use Service\UsuariosService;
 
 class UsuariosRepository
 {
     private object $PostgreSQL;
     const TABELA = 'usuarios';
+    // const TABELA = UsuariosService::TABELA;
 
     /**
      * UsuariosRepository constructor.

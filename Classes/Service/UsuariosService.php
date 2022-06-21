@@ -8,7 +8,8 @@ use Util\ConstantesGenericasUtil;
 
 class UsuariosService
 {
-    public const TABELA = 'usuarios';
+    // public const TABELA = 'usuarios';
+    public const TABELA = UsuariosRepository::TABELA;
     public const RECURSOS_GET = ['listar'];
     public const RECURSOS_POST = ['cadastrar'];
     public const RECURSOS_DELETE = ['deletar'];
