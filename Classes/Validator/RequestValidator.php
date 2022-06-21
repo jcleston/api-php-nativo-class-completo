@@ -50,6 +50,7 @@ class RequestValidator
             $this->dadosRequest = JsonUtil::tratarCorpoRequisicaoJson();
         }
         $this->TokensAutorizadosRepository->validarToken(getallheaders()['Authorization']);
+        $this->TokensAutorizadosRepository->validaAcessoExterno(getallheaders()['Authorization']);
         $metodo = $this->request['metodo'];
         return $this->$metodo();
     }

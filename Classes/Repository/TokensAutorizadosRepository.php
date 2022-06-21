@@ -41,6 +41,17 @@ class TokensAutorizadosRepository
         }
     }
 
+
+    public function validaAcessoExterno()
+    {
+        if ($_SERVER['REMOTE_ADDR'] != IP_PERMITIDO) {
+            header("HTTP/1.1 401 Unauthorized");
+            throw new InvalidArgumentException(ConstantesGenericasUtil::MSG_ERR0_IP_PERMITIDO);
+        }
+        // header('Access-Control-Allow-Origin:' . $_SERVER['REMOTE_ADDR']);
+    }
+
+
     /**
      * @return PostgreSQL|object
      */

@@ -20,6 +20,7 @@ abstract class ConstantesGenericasUtil
     public const MSG_ERRO_TOKEN_VAZIO = 'É necessário informar um Token!';
     public const MSG_ERRO_TOKEN_NAO_AUTORIZADO = 'Token não autorizado!';
     public const MSG_ERR0_JSON_VAZIO = 'O Corpo da requisição não pode ser vazio!';
+    public const MSG_ERR0_IP_PERMITIDO = 'O IP de conexão externa não é permitido!';
 
     /* SUCESSO */
     public const MSG_DELETADO_SUCESSO = 'Registro deletado com Sucesso!';
@@ -37,4 +38,5 @@ abstract class ConstantesGenericasUtil
     /* OUTRAS */
     public const TIPO = 'tipo';
     public const RESPOSTA = 'resposta';
+    // public const IP_PERMITIDO = '127.0.0.1';
 }
